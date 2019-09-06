@@ -2,8 +2,9 @@ const isEven = (num) => {
   // write code for numbers.isEven
   if(num% 2 ===0){
     return true
-
   }
+  else
+    return false
   
 
 }
@@ -12,6 +13,9 @@ const sum = (arr) => {
   // write code for numbers.sum
   return (arr.length === 0) ? 0 : arr[0] +sum(arr.slice(1));
   //return 21
+ 
+
+  
 
 }
 
